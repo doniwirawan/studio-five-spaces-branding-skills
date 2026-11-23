@@ -1,0 +1,58 @@
+/* Studio Five Spaces — Branding Guidelines 2027 (V9) design tokens.
+   Six colours only. Aliases must resolve to one of these; never add tints or status hues. */
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap");
+
+:root {
+  /* Palette (exact sRGB) */
+  --electric-purple: #A21FFF; /* logo, large headlines, main actions */
+  --glow:            #C9A8FF; /* links, labels, focus on Blackout */
+  --deep-uv:         #4C1D95; /* links, short text on White */
+  --blackout:        #17141A; /* lead surface */
+  --matte-black:     #231F20; /* body text on White */
+  --white:           #FFFFFF; /* body on Blackout/Electric; reading surface */
+
+  /* Type */
+  --font-display: "Sora", "Inter", system-ui, sans-serif;  /* headlines */
+  --font-body:    "Inter", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+  --track-display-lg: -0.02em;
+  --track-display-sm: -0.01em;
+  --track-body: 0;
+  --track-label: 0.06em; /* uppercase labels */
+  --lh-display: 1.05;    /* Sora 100–110% */
+  --lh-body: 1.5;        /* Inter 140–150% */
+  --lh-caption: 1.35;    /* 130–140% */
+
+  /* Spacing scale */
+  --space-1: 8px;  --space-2: 16px; --space-3: 24px; --space-4: 32px;
+  --space-5: 48px; --space-6: 64px; --space-7: 96px;
+}
+
+/* Blackout-first defaults */
+body {
+  background: var(--blackout);
+  color: var(--white);
+  font-family: var(--font-body);
+  font-size: 18px;
+  line-height: var(--lh-body);
+}
+@media (max-width: 600px) { body { font-size: 16px; } }
+
+h1, h2, h3 { font-family: var(--font-display); line-height: var(--lh-display); }
+h1 { font-size: clamp(40px, 4.4vw, 56px); font-weight: 700; letter-spacing: var(--track-display-lg); }
+h2 { font-size: clamp(24px, 3vw, 40px);   font-weight: 600; letter-spacing: var(--track-display-sm); }
+
+a { color: var(--glow); text-decoration: underline; text-underline-offset: 3px; }
+:focus-visible { outline: 3px solid var(--glow); outline-offset: 2px; } /* dark gap on Blackout */
+
+.label { font: 500 12px/1.2 var(--font-body); text-transform: uppercase; letter-spacing: var(--track-label); color: var(--glow); }
+
+.btn { background: var(--electric-purple); color: var(--white); font: 500 16px/1 var(--font-body); }
+.btn:hover { background: var(--deep-uv); }
+
+/* White reading surfaces */
+.surface-white { background: var(--white); color: var(--matte-black); }
+.surface-white a { color: var(--deep-uv); }
+.surface-white :focus-visible { outline-color: var(--deep-uv); }
+
+/* Electric campaign field: White text only */
+.surface-electric { background: var(--electric-purple); color: var(--white); }
