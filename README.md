@@ -1,4 +1,5 @@
 # Studio Five Spaces: Branding Skills
+https://studiofivespaces.com/wp-content/uploads/2026/09/2026-Spaces-Logo.png 2026 logo here
 
 Agent skills that apply the **Studio Five Spaces Branding Guidelines 2027 (V9)**. Use them to make or review on-brand websites, decks, social posts, thumbnails, video, print and copy.
 
@@ -33,3 +34,5 @@ The skill loads automatically for any task that mentions Studio Five Spaces, SPA
 ## Not included
 
 The logo SVG/PDF/EPS masters aren't in this repo. Use the supplied files; never redraw the wordmark in a font.
+
+https://studiofivespaces.com/wp-content/uploads/2026/09/2026-Spaces-Logo.png 2026 logo here
