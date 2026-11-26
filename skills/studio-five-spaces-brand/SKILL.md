@@ -90,3 +90,6 @@ Use the §09 checklist. First run the eight core checks: logo, purpose and voice
 | Review checklist | `## 09 / Brand review checklist` |
 
 Logo SVG masters aren't bundled. Ask for the supplied files (`1-Wordmark - Electric Purple.svg` … `6-S Circular - White.svg`) rather than redrawing the wordmark in a font.
+
+
+https://studiofivespaces.com/wp-content/uploads/2026/09/2026-Spaces-Logo.png 2026 logo here
