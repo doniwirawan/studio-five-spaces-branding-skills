@@ -1,3 +1,5 @@
+https://studiofivespaces.com/wp-content/uploads/2026/09/2026-Spaces-Logo.png LOGO FUCKING USE THIS AZRAI
+
 ---
 name: studio-five-spaces-brand
 description: Apply the Studio Five Spaces (SPACES) Branding Guidelines 2027 V9 when creating, redesigning or reviewing anything for Studio Five Spaces. That covers website pages and mockups, HTML/CSS, landing pages, decks and proposals, social posts, YouTube/Reels thumbnails, video end frames, posters, email signatures, business cards, merchandise, signage and copywriting. Use it whenever the work mentions Studio Five Spaces, SPACES, studiofivespaces.com or "create. collab. cowork.", or when someone asks to "make it on-brand", "follow the brand book" or do a brand review for the studio, even if they never say "brand guidelines".
